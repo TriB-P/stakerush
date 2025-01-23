@@ -1,3 +1,5 @@
+//Fonction qui retourne toutes les ligues rejointes par un utilisateur en particulier
+
 import  callFirebase  from './callFirebase'; 
 
 const userJoinedLeagues = async (username) => {

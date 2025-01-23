@@ -1,3 +1,5 @@
+//Fichier de configuration pour utiliser Firebase
+
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 

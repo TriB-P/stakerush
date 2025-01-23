@@ -1,3 +1,5 @@
+//Fonction qui retourne tous les utilisateurs qui ont rejoint une ligue en particulier
+
 import  callFirebase  from './callFirebase'; 
 
 const leagueJoinedUsers = async (leagueID) => {

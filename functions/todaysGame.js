@@ -1,4 +1,4 @@
-// todaysGame.js
+// Fonction qui renvoie tous les matchs pour la date d'aujourd'hui avec infos supplémentaires comme Live Score, venues, start time
 
 export const todaysGame = async (date) => {
     try {

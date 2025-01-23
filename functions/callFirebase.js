@@ -1,3 +1,4 @@
+//Fonction qui sert à appeler Firebase avec un path précis
 import { firestore } from './firebaseConfig';
 
 export default async function callFirebase(path) {
@@ -11,9 +12,9 @@ export default async function callFirebase(path) {
     }
 
     const data = await response.json();
-    return data; // No need to wrap this in a Promise
+    return data; 
   } catch (error) {
     console.error('Error fetching data from Firebase:', error);
-    throw error; // Re-throwing error for upstream handling
+    throw error; 
   }
 }

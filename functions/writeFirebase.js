@@ -1,3 +1,5 @@
+//Fonction qui écrit du contenu dans la base de données Firebase
+
 import { firestore } from './firebaseConfig';
 
 export default async function writeFirebase(path, data) {
